@@ -1,0 +1,38 @@
+.profile-card{
+    width: 350px;
+    padding: 20px;
+    border: 2px solid grey;
+    margin: 10px auto;
+    font-size: 20px;
+    background-color:whitesmoke;
+    text-align: center;
+}
+
+.profile-card:hover{
+    opacity: 0.5;
+    color: blue;
+}
+
+.profile-img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+h2,p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 700px){
+    .profile-card{
+        max-width: 400px;
+    }
+    .profile-img{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+/*for phone and other gadgets the window size is perfectly measured and implemented in html & css by developers.*/
+
